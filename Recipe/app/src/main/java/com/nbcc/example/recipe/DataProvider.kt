@@ -1,11 +1,5 @@
 import java.util.*
-
-data class Recipe(val name: String,
-                  val description: String,
-                  val image: String,
-                  val ingredients: String,
-                  val directions: String)
-
+import  com.nbcc.example.recipe.Recipe
 class DataProvider {
 
     companion object {
