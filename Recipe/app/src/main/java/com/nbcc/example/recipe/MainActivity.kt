@@ -1,7 +1,8 @@
+//David Cormier
+//2019-03-21
 package com.nbcc.example.recipe
 
 import android.os.Bundle
-import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView

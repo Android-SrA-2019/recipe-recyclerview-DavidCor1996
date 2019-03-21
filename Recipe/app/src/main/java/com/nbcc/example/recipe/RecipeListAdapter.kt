@@ -1,3 +1,5 @@
+//David Cormier
+//2019-03-21
 package com.nbcc.example.recipe
 
 import android.app.Activity
@@ -67,13 +69,12 @@ class WordListAdapter(context: Context, private val mRecipeList: LinkedList<Reci
                 mAdapter.notifyDataSetChanged()
 
                 val intent = Intent(context, RecipeActivity::class.java)
+                //Adds fields to intent
                 intent.putExtra("name",mRecipeList[mPosition].name)
                 intent.putExtra("ingredients",mRecipeList[mPosition].ingredients)
                 intent.putExtra("directions",mRecipeList[mPosition].directions)
                 intent.putExtra("image",mRecipeList[mPosition].image)
 
-
-                //finish()
                 context.startActivity(intent)
 
             }
